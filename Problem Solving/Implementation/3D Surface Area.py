@@ -95,4 +95,3 @@ for i in range(H):
                 Curr = Curr - min(Num, Figure[i + 1][j]) - min(Num, Figure[i - 1][j]) - min(Num, Figure[i][j - 1]) - min(Num, Figure[i][j + 1])
                 finalArea += Curr
 print(finalArea)
-            
