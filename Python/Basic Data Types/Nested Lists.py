@@ -1,4 +1,4 @@
-if __name__ == '__main__':
+def Main():
     S = {}
     for _ in range(int(input())):
         name = input()
@@ -11,3 +11,6 @@ if __name__ == '__main__':
     val = sorted(S[num])
     for i in val:
         print(i)
+
+if __name__ == "__main__":
+    Main()
