@@ -1,0 +1,5 @@
+A = int(input())
+B = int(input())
+M = int(input())
+print(A ** B)
+print(A ** B % M)
