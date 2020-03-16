@@ -47,14 +47,10 @@ def preOrder(root):
     if root.right != None:
         preOrder(root.right)
 
-
-
 tree = BinarySearchTree()
 t = int(input())
-
 arr = list(map(int, input().split()))
 
 for i in range(t):
     tree.create(arr[i])
-
-inOrder(tree.root)
+preOrder(tree.root)

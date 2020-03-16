@@ -55,4 +55,4 @@ arr = list(map(int, input().split()))
 for i in range(t):
     tree.create(arr[i])
 
-inOrder(tree.root)
+postOrder(tree.root)
